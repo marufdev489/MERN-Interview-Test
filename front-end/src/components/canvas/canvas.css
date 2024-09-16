@@ -1,0 +1,25 @@
+.content-wrapper {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.canvas-container {
+  width: 1000px;
+  height: 600px;
+  border: 2px solid black;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  margin-left: 480px;
+}

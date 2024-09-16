@@ -1,0 +1,24 @@
+{
+  "name": "expressjsapp",
+  "version": "1.0.0",
+  "description": "this is an application to test different backend applications performance",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "bun": "bun run --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
